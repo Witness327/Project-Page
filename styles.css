@@ -58,6 +58,7 @@ header {
 
 .thumbnail-image {
     max-width: 95%;
+    max-height: 240px;
 }
 
 
@@ -250,6 +251,11 @@ footer .copyright {
 
     .card {
         max-width: 500px;
+    }
+
+    .thumbnail-image {
+        max-width: 95%;
+        max-height: 400px;
     }
 
   }
