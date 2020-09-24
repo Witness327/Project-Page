@@ -56,6 +56,9 @@ header {
     line-height: 1.5;
 }
 
+
+
+
 header .profile-image {
     margin-top: 50px;
     width: 150px;
@@ -68,6 +71,21 @@ header .profile-image {
 header .profile-image:hover {
     transform: scale(1.2) rotate(360deg);
 }
+
+header .thumbnail-image {
+    margin-top: 50px;
+    width: 705px;
+    height: 379px;
+    border-radius: 5%;
+    /* border: 5px solid rgba(8, 36, 68, 0.514); */
+    transition: all .5s;
+}
+
+header .thumbnail-image:hover {
+    transform: scale(1.2);
+     /* rotate(360deg); */
+}
+
 
 .pin-icon {
     width: 23px;
@@ -173,6 +191,7 @@ a.social {
     background-size: 30px 30px;
     opacity: .4;
     transition: all .5s;
+    
   }
 
 a.twitter {
