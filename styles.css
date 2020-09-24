@@ -56,7 +56,9 @@ header {
     line-height: 1.5;
 }
 
-
+.thumbnail-image {
+    max-width: 95%;
+}
 
 
 header .profile-image {
@@ -250,7 +252,6 @@ footer .copyright {
         max-width: 500px;
     }
 
-
   }
 
 
@@ -271,6 +272,7 @@ footer .copyright {
     header {
         min-height: 470px;
     }
+    
 
     .nav {
         max-width: 1200px;
