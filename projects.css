@@ -1,0 +1,10 @@
+body {
+
+    background: url(Images/Background.JPG) no-repeat top center;
+    background-size: 100% 110%;
+}
+
+header {
+    background: none;
+}
+

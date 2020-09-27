@@ -60,6 +60,7 @@ header {
 .thumbnail-image {
     max-width: 95%;
     max-height: 240px;
+    
 }
 
 
@@ -76,7 +77,7 @@ header .profile-image:hover {
     transform: scale(1.2) rotate(360deg);
 }
 
-header .thumbnail-image {
+.thumbnail-image {
     margin-top: 50px;
     width: 705px;
     height: 379px;
@@ -85,10 +86,7 @@ header .thumbnail-image {
     transition: all .5s;
 }
 
-header .thumbnail-image:hover {
-    transform: scale(1.2);
-     /* rotate(360deg); */
-}
+
 
 
 .pin-icon {
