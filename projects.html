@@ -18,7 +18,7 @@
     <div class="main-nav">
         <ul class="nav">
             <li class="name">Andres Perez</li>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About Me</a></li>
         </ul>
     </div>
 
@@ -31,7 +31,7 @@
         <h1 class="tag name">Newsletter Sign Up</h1>
         <p class="tag location"><img src="Images/pin.png" alt="Map Pin Icon" class="pin-icon">     Sign Up Form. HTML & CSS</p>
 
-        <a href="https://witness327.github.io/Mock-Portfolio/index.html#contact"><img src="Images/Portfolio.PNG" alt="Mock portfolio page preview." class="thumbnail-image"></a>
+        <a href="https://witness327.github.io/Mock-Portfolio/index.html"><img src="Images/Portfolio.PNG" alt="Mock portfolio page preview." class="thumbnail-image"></a>
         <h1 class="tag name">Responsive Portfolio Page</h1>
         <p class="tag location"><img src="Images/pin.png" alt="Map Pin Icon" class="pin-icon">     Mock Portfolio. HTML & CSS</p>
 
@@ -52,6 +52,19 @@
     </ul>
     <p class="copyright">&copy; 2020, Andres Perez</p>
 
-</footer>    
+</footer>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+<script>
+
+
+    // gsap.from('h1', {opacity: 1, duration: 1, y: -300, ease: 'Power2.easeInOut'})
+    // gsap.from('p', {opacity: 1, duration: 1, y: -300, ease: 'Power2.easeInOut'})
+    gsap.from('img', {opacity: 1, duration: 1, delay: .8, y: -300, ease: 'elastic(5, 2)'})
+    // gsap.from('img', {opacity: 0, duration:   3})
+
+
+</script>
+  
 </body>
 </html>
