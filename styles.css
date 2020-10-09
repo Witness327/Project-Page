@@ -51,7 +51,7 @@
 
 header {
     text-align: center;
-    background: url(Images/Background.JPG) no-repeat top center;
+    background: url(images/Background.JPG) no-repeat top center;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -213,20 +213,20 @@ a.social {
   }
 
 a.twitter {
-    background-image: url(Images/twitter.svg);
+    background-image: url(images/twitter.svg);
 }
 
 a.linkedin {
-    background-image: url(Images/linkedin.svg);
+    background-image: url(images/linkedin.svg);
 
 }
 
 a.github {
-    background-image: url(Images/github.svg);
+    background-image: url(images/github.svg);
 }
 
 a.gmail {
-    background-image: url(Images/gmail.svg);
+    background-image: url(images/gmail.svg);
 }
 
 a.social:hover {
