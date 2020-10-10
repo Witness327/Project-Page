@@ -3,13 +3,14 @@
 
 <head>
     <title>Andres Perez</title>
-    <link href="normalize.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lustria" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
 
 </head>
@@ -96,6 +97,7 @@
 
 
     gsap.from('header', {opacity: 0, duration: .3, delay: .7, y: -600})
+    gsap.from('.main-nav li', {opacity: 1, duration: .9, y: -200, ease: 'Power2.easeInOut', stagger: 0.5})
 
 
 

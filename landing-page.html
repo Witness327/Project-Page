@@ -3,23 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="normalize.css" rel="stylesheet">
-    <link href="landing-page.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/landing-page.css" rel="stylesheet">
+    <!-- <link href="css/styles.css" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <title>Andres Perez</title>
 </head>
 <body>
+
+    <div class="main-nav">
+        <ul class="nav">
+            <li class="name">Andres Perez</li>
+            <li><a href="landing-page.html">Home</a></li>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </div>
     
     <div class="section">  
-        <a href="index.html"><h1>Andres Perez</h1></a>
+        <a href="index.html"><h1>Web Developer</h1></a> <br> 
         
         <div class="video-container">
             <video id="videoBG" autoplay loop muted>
-                <source src="video.mp4" type="video/mp4">
+                <source src="videos/geometric-planet.mp4" type="video/mp4">
             </video>
         </div>
 
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    
+<script>
+
+
+    // gsap.from('h1', {opacity: 1, duration: 1.2, delay: 1.5, x: -1325, ease: 'Power2.easeInOut'})
+    // gsap.from('h1', {opacity: 1, duration: .5, delay: .7, x: 1425, ease: 'Power2.easeInOut'})
+    gsap.from('li', {opacity: 1, duration: .9, y: -200, ease: 'Power2.easeInOut', stagger: 0.5})
+    // gsap.from('img', {opacity: 0, duration:   3})
+    gsap.from('h1', {opacity: 0, duration: 1, delay: 2, y: -600})
+
+
+</script>
     
 </body>
 </html>
