@@ -9,18 +9,23 @@
       background: #f7f5f0;
       color: #222;
   }
-
+  .nav-logo {
+    top: 0;
+    width: 50x;
+    height: 80px;
+}
  
 .main-nav {
+    top: 0;
+    left: 0;
     font-size: 1.5rem;
     width: 100%;
     position: fixed;
-    /* background: black; */
-    text-align: center;
+    background: rgba(8, 36, 68, 0.514);
     padding: 10px;
     margin-top: 0%;
-    text-align: center;
     z-index: 1;
+    /* opacity: .7; */
 }
 
 .nav {
@@ -120,7 +125,7 @@ a {
 }
 
 a:visited {
-    color: royalblue;
+    color: black;
 }
 
 a:hover {
