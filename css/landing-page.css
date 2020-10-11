@@ -16,6 +16,8 @@
     top: 0;
     width: 50x;
     height: 80px;
+    border: 3px solid black;
+    border-radius: 5px;
 }
 
 .nav {
@@ -29,7 +31,7 @@
 
 .nav .name {
     font-size: 2rem;
-    font-family: 'Permanent Marker', cursive; 
+    /* font-family: 'Cinzel', serif; */
     /* display: block; */
     margin-right: auto;
     color: white;
@@ -67,15 +69,19 @@ a {
 
 .section h1 {
     text-align: center;
-    font-size: 6rem;    
-    padding: 20px;
-    margin: 15px;  
+    font-size: 4rem;    
+    /* padding: 20px;
+    margin: 15px;   */
     z-index: 1; 
-    font-family: 'Permanent Marker', cursive; 
+    /* font-family: 'Tangerine', cursive; */
+    /* font-family: 'Marcellus SC', serif; */
+    font-family: 'Spectral SC', serif;
     transition: all .5s;    
-    color: whitesmoke;
-    /* display: block; */
-    
+    color: white;
+}
+
+title {
+    font-family: 'Tangerine', cursive;
 }
 
 h1:hover {
@@ -89,7 +95,7 @@ h1:hover {
     padding: 20px;
     margin: 15px;  
     /* display: inline-block;     */
-    font-family: 'Permanent Marker', cursive; 
+    /* font-family: 'Permanent Marker', cursive;  */
 
 }
 
