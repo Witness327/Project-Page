@@ -8,9 +8,17 @@ header {
     background: none;
 }
 
-.nav .name {
-    font-size: 2rem;
+/* .nav .name {
+    font-size: .1rem;
+    
+} */
+
+.icon {
+    font-size: .1rem;    
+    background-color: rgb(238, 90, 36);
+    
 }
+
 
 .video-container {
     /* position: absolute; */

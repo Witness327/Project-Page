@@ -13,8 +13,14 @@
     top: 0;
     width: 50x;
     height: 80px;
-    border: 3px solid black;
-    border-radius: 5px;
+    /* border: 3px solid black; */
+    border-radius: 5px;    
+}
+
+.icon {
+    font-size: .1rem;    
+    background-color: rgb(238, 90, 36);
+    
 }
  
 .main-nav {
@@ -39,12 +45,12 @@
     justify-content: space-around;    
 }
 
-.nav .name {
-    font-size: 2rem;
+.nav .name {    
     /* font-family: 'Permanent Marker', cursive;  */
     display: block;
     margin-right: auto;
     color: white;
+    z-index: 2;
 }
 
 .nav li {

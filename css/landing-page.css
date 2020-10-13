@@ -16,8 +16,8 @@
     top: 0;
     width: 50x;
     height: 80px;
-    border: 3px solid black;
-    border-radius: 5px;
+    /* border: 3px solid black;
+    border-radius: 5px; */
 }
 
 .nav {
@@ -30,11 +30,15 @@
 }
 
 .nav .name {
-    font-size: 2rem;
+    font-size:.1rem;
     /* font-family: 'Cinzel', serif; */
     /* display: block; */
     margin-right: auto;
-    color: white;
+    /* color: white; */
+}
+
+.icon {   
+    background-color: rgb(238, 90, 36);
 }
 
 .nav li {
@@ -80,9 +84,6 @@ a {
     color: white;
 }
 
-title {
-    font-family: 'Tangerine', cursive;
-}
 
 h1:hover {
     transform: scale(1.4);    
