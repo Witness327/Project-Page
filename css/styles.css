@@ -67,9 +67,10 @@
 
 header {
     text-align: center;
-    background: url(../Images/Background.JPG) no-repeat top center;
+    background: url(../Images/vectorstock_30301156.png) no-repeat center center;
     background-size: cover;
     background-position: 50% 30%;
+    background-color: lightsteelblue;
     overflow: hidden;
     padding-top: 250px;
     line-height: 1.5;
