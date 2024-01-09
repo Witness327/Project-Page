@@ -174,15 +174,15 @@ ul.skills {
 .skills li {
     border-radius: 6px;
     display: inline-block;
-    background: silver;
+    background: #0399ff;
     color: white;
     padding: 5px 10px;
     margin: 2px;
 }
 
-.skills li:nth-child(odd) {
+/* .skills li:nth-child(odd) {
     background: #0399ff;
-}
+} */
 
 
 
