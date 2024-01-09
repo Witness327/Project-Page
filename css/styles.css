@@ -119,6 +119,10 @@ header .profile-image:hover {
     margin-right: 5px;
 }
 
+.press {
+    color: #0399ff;
+}
+
 .tag {
     background: rgba(8, 36, 68, 0.514);
     color: darkgray;
