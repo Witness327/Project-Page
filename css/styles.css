@@ -143,7 +143,8 @@ a:visited {
 }
 
 a:hover {
-    color: #0399ff;
+    color: white;
+    /* color: #0399ff; */
 }
 
 a:active {
